@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1892A9D028B2D0C200745E26 /* ResortBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892A9CF28B2D0C200745E26 /* ResortBrowserApp.swift */; };
+		1892A9D228B2D0C200745E26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892A9D128B2D0C200745E26 /* ContentView.swift */; };
+		1892A9D428B2D0C400745E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1892A9D328B2D0C400745E26 /* Assets.xcassets */; };
+		1892A9D728B2D0C400745E26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1892A9D628B2D0C400745E26 /* Preview Assets.xcassets */; };
+		1892A9E528B2D31000745E26 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892A9E428B2D31000745E26 /* HomeView.swift */; };
+		1892A9E728B2D32B00745E26 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892A9E628B2D32B00745E26 /* CategoriesView.swift */; };
+		1892A9E928B2D34100745E26 /* NewRecipieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892A9E828B2D34100745E26 /* NewRecipieView.swift */; };
+		1892A9EB28B2D35800745E26 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892A9EA28B2D35800745E26 /* FavoritesView.swift */; };
+		1892A9ED28B2D36B00745E26 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892A9EC28B2D36B00745E26 /* SettingsView.swift */; };
+		1897878328C3E8D400F88BE0 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897878228C3E8D400F88BE0 /* TabBar.swift */; };
+		1897878528C3EE8F00F88BE0 /* RecipieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897878428C3EE8F00F88BE0 /* RecipieModel.swift */; };
+		1897878928C5675F00F88BE0 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897878828C5675F00F88BE0 /* RecipeCard.swift */; };
+		1897878B28C5767600F88BE0 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897878A28C5767600F88BE0 /* RecipeList.swift */; };
+		1897878F28C5811E00F88BE0 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897878E28C5811E00F88BE0 /* RecipeView.swift */; };
+		1897879128C59D1800F88BE0 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897879028C59D1800F88BE0 /* SwiftUIView.swift */; };
+		1897879528C5AFD000F88BE0 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897879428C5AFCF00F88BE0 /* CategoryView.swift */; };
+		189787A028C5D4A100F88BE0 /* GVTLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1897879F28C5D4A100F88BE0 /* GVTLogo.jpg */; };
+		189787A228C5D52B00F88BE0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189787A128C5D52B00F88BE0 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1892A9CC28B2D0C200745E26 /* ResortBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResortBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1892A9CF28B2D0C200745E26 /* ResortBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortBrowserApp.swift; sourceTree = "<group>"; };
+		1892A9D128B2D0C200745E26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1892A9D328B2D0C400745E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1892A9D628B2D0C400745E26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1892A9E428B2D31000745E26 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1892A9E628B2D32B00745E26 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		1892A9E828B2D34100745E26 /* NewRecipieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipieView.swift; sourceTree = "<group>"; };
+		1892A9EA28B2D35800745E26 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		1892A9EC28B2D36B00745E26 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1897878228C3E8D400F88BE0 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		1897878428C3EE8F00F88BE0 /* RecipieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipieModel.swift; sourceTree = "<group>"; };
+		1897878828C5675F00F88BE0 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		1897878A28C5767600F88BE0 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
+		1897878E28C5811E00F88BE0 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		1897879028C59D1800F88BE0 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		1897879428C5AFCF00F88BE0 /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		1897879A28C5D16D00F88BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1897879F28C5D4A100F88BE0 /* GVTLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GVTLogo.jpg; sourceTree = "<group>"; };
+		189787A128C5D52B00F88BE0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1892A9C928B2D0C200745E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1892A9C328B2D0C200745E26 = {
+			isa = PBXGroup;
+			children = (
+				1892A9CE28B2D0C200745E26 /* ResortBrowser */,
+				1892A9D328B2D0C400745E26 /* Assets.xcassets */,
+				189787A128C5D52B00F88BE0 /* Launch Screen.storyboard */,
+				1897879F28C5D4A100F88BE0 /* GVTLogo.jpg */,
+				1892A9D528B2D0C400745E26 /* Preview Content */,
+				1892A9CD28B2D0C200745E26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1892A9CD28B2D0C200745E26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1892A9CC28B2D0C200745E26 /* ResortBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1892A9CE28B2D0C200745E26 /* ResortBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				1897879A28C5D16D00F88BE0 /* Info.plist */,
+				1892A9CF28B2D0C200745E26 /* ResortBrowserApp.swift */,
+				1892A9E028B2D1A700745E26 /* Views */,
+				1892A9DE28B2D17300745E26 /* VeiwModels */,
+				1892A9DF28B2D18800745E26 /* Modles */,
+			);
+			path = ResortBrowser;
+			sourceTree = "<group>";
+		};
+		1892A9D528B2D0C400745E26 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1892A9D628B2D0C400745E26 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1892A9DE28B2D17300745E26 /* VeiwModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VeiwModels;
+			sourceTree = "<group>";
+		};
+		1892A9DF28B2D18800745E26 /* Modles */ = {
+			isa = PBXGroup;
+			children = (
+				1897878428C3EE8F00F88BE0 /* RecipieModel.swift */,
+			);
+			path = Modles;
+			sourceTree = "<group>";
+		};
+		1892A9E028B2D1A700745E26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1892A9E128B2D1C100745E26 /* Main */,
+				1892A9E228B2D1DD00745E26 /* Detail */,
+				1892A9E328B2D20400745E26 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1892A9E128B2D1C100745E26 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1892A9D128B2D0C200745E26 /* ContentView.swift */,
+				1897878228C3E8D400F88BE0 /* TabBar.swift */,
+				1892A9E428B2D31000745E26 /* HomeView.swift */,
+				1892A9E628B2D32B00745E26 /* CategoriesView.swift */,
+				1892A9E828B2D34100745E26 /* NewRecipieView.swift */,
+				1892A9EA28B2D35800745E26 /* FavoritesView.swift */,
+				1892A9EC28B2D36B00745E26 /* SettingsView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1892A9E228B2D1DD00745E26 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				1897879428C5AFCF00F88BE0 /* CategoryView.swift */,
+				1897878E28C5811E00F88BE0 /* RecipeView.swift */,
+				1897879028C59D1800F88BE0 /* SwiftUIView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		1892A9E328B2D20400745E26 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1897878828C5675F00F88BE0 /* RecipeCard.swift */,
+				1897878A28C5767600F88BE0 /* RecipeList.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1892A9CB28B2D0C200745E26 /* ResortBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1892A9DA28B2D0C400745E26 /* Build configuration list for PBXNativeTarget "ResortBrowser" */;
+			buildPhases = (
+				1892A9C828B2D0C200745E26 /* Sources */,
+				1892A9C928B2D0C200745E26 /* Frameworks */,
+				1892A9CA28B2D0C200745E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResortBrowser;
+			productName = ResortBrowser;
+			productReference = 1892A9CC28B2D0C200745E26 /* ResortBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1892A9C428B2D0C200745E26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					1892A9CB28B2D0C200745E26 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 1892A9C728B2D0C200745E26 /* Build configuration list for PBXProject "ResortBrowser" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1892A9C328B2D0C200745E26;
+			productRefGroup = 1892A9CD28B2D0C200745E26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1892A9CB28B2D0C200745E26 /* ResortBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1892A9CA28B2D0C200745E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1892A9D728B2D0C400745E26 /* Preview Assets.xcassets in Resources */,
+				189787A028C5D4A100F88BE0 /* GVTLogo.jpg in Resources */,
+				189787A228C5D52B00F88BE0 /* Launch Screen.storyboard in Resources */,
+				1892A9D428B2D0C400745E26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1892A9C828B2D0C200745E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1897879128C59D1800F88BE0 /* SwiftUIView.swift in Sources */,
+				1892A9ED28B2D36B00745E26 /* SettingsView.swift in Sources */,
+				1897878928C5675F00F88BE0 /* RecipeCard.swift in Sources */,
+				1892A9E728B2D32B00745E26 /* CategoriesView.swift in Sources */,
+				1892A9E528B2D31000745E26 /* HomeView.swift in Sources */,
+				1897878328C3E8D400F88BE0 /* TabBar.swift in Sources */,
+				1897878528C3EE8F00F88BE0 /* RecipieModel.swift in Sources */,
+				1897878F28C5811E00F88BE0 /* RecipeView.swift in Sources */,
+				1897878B28C5767600F88BE0 /* RecipeList.swift in Sources */,
+				1892A9EB28B2D35800745E26 /* FavoritesView.swift in Sources */,
+				1892A9D228B2D0C200745E26 /* ContentView.swift in Sources */,
+				1892A9D028B2D0C200745E26 /* ResortBrowserApp.swift in Sources */,
+				1892A9E928B2D34100745E26 /* NewRecipieView.swift in Sources */,
+				1897879528C5AFD000F88BE0 /* CategoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1892A9D828B2D0C400745E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1892A9D928B2D0C400745E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1892A9DB28B2D0C400745E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_TEAM = G3P9A8Z2NP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ResortBrowser/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalvibes.ResortBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1892A9DC28B2D0C400745E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_TEAM = G3P9A8Z2NP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ResortBrowser/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalvibes.ResortBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1892A9C728B2D0C200745E26 /* Build configuration list for PBXProject "ResortBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1892A9D828B2D0C400745E26 /* Debug */,
+				1892A9D928B2D0C400745E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1892A9DA28B2D0C400745E26 /* Build configuration list for PBXNativeTarget "ResortBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1892A9DB28B2D0C400745E26 /* Debug */,
+				1892A9DC28B2D0C400745E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1892A9C428B2D0C200745E26 /* Project object */;
+}
