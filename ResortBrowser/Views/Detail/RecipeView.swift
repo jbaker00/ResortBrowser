@@ -35,6 +35,15 @@ struct RecipeView: View {
                         .bold()
                         .multilineTextAlignment(.center)
                     
+                    //URL Website of Hotel
+                    if !recipe.city.isEmpty {
+                        VStack(alignment: .leading, spacing: 20) {
+                            Link("Website",
+                                  destination: URL(string: recipe.url)!)
+                                .font(.headline)
+                            
+                        }
+                    }
                     
                     VStack(alignment: .leading, spacing: 30) {
                         //Description of Hotel
@@ -42,33 +51,14 @@ struct RecipeView: View {
                             Text(recipe.description)
                         }
                         
-                        //City of Hotel
+
+                        
+                        //Location of Hotel
                         if !recipe.city.isEmpty {
                             VStack(alignment: .leading, spacing: 20) {
-                                Text("City")
-                                    .font(.headline)
-                                Text(recipe.city)
+                                Text("City: " + recipe.city + ", Country: " + recipe.country + ", Aiprort: " + recipe.airport)
                             }
                         }
-                        
-                        //City of Hotel
-                        if !recipe.country.isEmpty {
-                            VStack(alignment: .leading, spacing: 20) {
-                                Text("Country")
-                                    .font(.headline)
-                                Text(recipe.country)
-                            }
-                        }
-                        
-                        //Airport of Hotel
-                        if !recipe.airport.isEmpty {
-                            VStack(alignment: .leading, spacing: 20) {
-                                Text("Aiprort")
-                                    .font(.headline)
-                                Text(recipe.airport)
-                            }
-                        }
-                        
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                 }
