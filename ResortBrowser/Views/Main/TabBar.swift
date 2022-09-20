@@ -20,7 +20,7 @@ struct TabBar: View {
                 }
             NewRecipieView()
                 .tabItem{
-                   Label("New", systemImage: "plus")
+                   Label("About Us", systemImage: "info")
                 }
             FavoritesView()
                 .tabItem{
