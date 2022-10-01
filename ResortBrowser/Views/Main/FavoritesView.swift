@@ -18,6 +18,9 @@ struct FavoritesView: View {
                
                 Text("You haven't saved any hotels to your favorites yet")
                     .padding()
+                
+                //Align things to the top
+                Spacer()
             }
             .navigationBarTitle("Favorites")
         }

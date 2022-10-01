@@ -27,6 +27,8 @@ struct CategoriesView: View {
                         }
                     }
                 }
+                //Align things to the top
+                Spacer()
             }
             .navigationBarTitle("Categories")
         }
