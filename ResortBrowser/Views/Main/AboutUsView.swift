@@ -28,7 +28,7 @@ struct AboutUsView: View {
                             UIApplication.shared.open(url)
                         }
                     } label: {
-                        Image("facebook_logo_icon")
+                        Image("facebook_logo_icon") 
                             .resizable()
                             .scaledToFit()
                             .frame(width: 30.0, height: 30.0, alignment: .top)
