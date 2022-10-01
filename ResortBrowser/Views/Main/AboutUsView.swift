@@ -10,10 +10,39 @@ import SwiftUI
 struct AboutUsView: View {
     var body: some View {
         NavigationView {
-            Text("Global Vibes is an exclusive international travel agency.  Our Specialities are Restorts EVERYWHERE.  We have doen work in the Contentinal USA, Alaska, Hawaii, Eourpe, THe Caribeean, Asia, Australia, and Cruise Shops all over the world  For additional information please feel free to reach out to us at www.globalvibes.com or by emailing info@globalvibes.com.  We love to help those who do not have time or want to book their own travel.Dont forget to check us out on FB and IG")
-                .navigationTitle("About Us")
-                .padding(.horizontal)
-
+            VStack (spacing:30) {
+                Text("Global Vibes is an exclusive international travel agency.  Our Specialities are Restorts EVERYWHERE.  We have doen work in the Contentinal USA, Alaska, Hawaii, Eourpe, THe Caribeean, Asia, Australia, and Cruise Shops all over the world  For additional information please feel free to reach out to us on FB and IG or by emailing info@globalvibes.com.  We love to help those who do not have time or want to book their own travel.")
+                    .navigationTitle("About Us")
+                    .padding(.horizontal)
+                HStack (spacing: 20) {
+                    // FB icon button
+                    Button {
+                        print("FB Button tapped")
+                        if let url = URL(string: "https://www.facebook.com/globalvibestravel") {
+                            UIApplication.shared.open(url)
+                        }
+                    } label: {
+                        Image("facebook_logo_icon")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 30.0, height: 30.0, alignment: .top)
+                    }
+                    
+                    //IG icon Button
+                    Button {
+                        print("IG Button tapped")
+                        if let url = URL(string: "https://www.instagram.com/globalvibestravel/") {
+                            UIApplication.shared.open(url)
+                        }
+                    } label: {
+                        Image("instagram_icon")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 30.0, height: 30.0, alignment: .top)
+                    }
+                    
+                }
+            }
         }
     }
 }
