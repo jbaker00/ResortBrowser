@@ -19,7 +19,7 @@ struct FavoritesView: View {
                 Text("You haven't saved any hotels to your favorites yet")
                     .padding()
             }
-            .navigationTitle("Favorites")
+            .navigationBarTitle("Favorites")
         }
     }
 }

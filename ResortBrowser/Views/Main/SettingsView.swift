@@ -18,7 +18,7 @@ struct SettingsView: View {
                 
                 Text("v 1.0.0.0")
             }
-            .navigationTitle("Settings")
+            .navigationBarTitle("Settings")
         }
     }
 }

@@ -49,7 +49,7 @@ struct AboutUsView: View {
                     
                 }
             }
-            .navigationTitle("About Us")
+            .navigationBarTitle("About Us")
         }
     }
 }

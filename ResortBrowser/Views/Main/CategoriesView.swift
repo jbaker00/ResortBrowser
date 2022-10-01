@@ -28,7 +28,7 @@ struct CategoriesView: View {
                     }
                 }
             }
-            .navigationTitle("Categories")
+            .navigationBarTitle("Categories")
         }
         .navigationViewStyle(.stack)
     }
