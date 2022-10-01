@@ -10,14 +10,21 @@ import SwiftUI
 struct CategoriesView: View {
     var body: some View {
         NavigationView {
-            List {
-                ForEach(Category.allCases) { category in
-                    NavigationLink {
-                        //CategoryView(category: category)
-                        CategoryView(category: category)
-                    } label : {
-                        Text(category.rawValue + "s")
-
+            VStack {
+                Image("GVTLogo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 200.0, height:200.0, alignment: .top)
+                
+                List {
+                    ForEach(Category.allCases) { category in
+                        NavigationLink {
+                            //CategoryView(category: category)
+                            CategoryView(category: category)
+                        } label : {
+                            Text(category.rawValue + "s")
+                            
+                        }
                     }
                 }
             }

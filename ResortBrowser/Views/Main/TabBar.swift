@@ -12,7 +12,7 @@ struct TabBar: View {
         TabView {
             HomeView()
                 .tabItem{
-                    Label("Home", systemImage: "house")
+                    Label("Home", systemImage: "house") 
                 }
             CategoriesView()
                 .tabItem{

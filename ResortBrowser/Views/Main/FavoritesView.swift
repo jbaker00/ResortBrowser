@@ -10,9 +10,16 @@ import SwiftUI
 struct FavoritesView: View {
     var body: some View {
         NavigationView {
-            Text("You haven't saved any hotels to your favorites yet")
-                .padding()
-                .navigationTitle("Favorites")
+            VStack {
+                Image("GVTLogo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 200.0, height:200.0, alignment: .top)
+               
+                Text("You haven't saved any hotels to your favorites yet")
+                    .padding()
+            }
+            .navigationTitle("Favorites")
         }
     }
 }

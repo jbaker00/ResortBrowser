@@ -10,8 +10,15 @@ import SwiftUI
 struct SettingsView: View {
     var body: some View {
         NavigationView {
-            Text("v 1.0.0.0")
-                .navigationTitle("Settings")
+            VStack {
+                Image("GVTLogo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 200.0, height:200.0, alignment: .top)
+                
+                Text("v 1.0.0.0")
+            }
+            .navigationTitle("Settings")
         }
     }
 }
