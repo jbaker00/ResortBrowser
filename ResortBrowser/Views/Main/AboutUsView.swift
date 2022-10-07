@@ -14,11 +14,12 @@ struct AboutUsView: View {
                 Image("GVTLogo")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 200.0, height:200.0, alignment: .top)
+                    .frame(width: 200.0, height:100.0, alignment: .top)
 
-                
-                Text("Global Vibes is an exclusive international travel agency.  Our Specialities are Restorts EVERYWHERE.  We have doen work in the Contentinal USA, Alaska, Hawaii, Eourpe, THe Caribeean, Asia, Australia, and Cruise Shops all over the world  For additional information please feel free to reach out to us on FB and IG or by emailing info@globalvibes.com.  We love to help those who do not have time or want to book their own travel.")
-                    .padding(.horizontal)
+                ScrollView {
+                    Text("Global Vibes is an exclusive international travel agency.  Our Specialities are Restorts EVERYWHERE.  We have doen work in the Contentinal USA, Alaska, Hawaii, Eourpe, THe Caribeean, Asia, Australia, and Cruise Shops all over the world  For additional information please feel free to reach out to us on FB and IG or by emailing info@globalvibes.com.  We love to help those who do not have time or want to book their own travel.")
+                        .padding(.horizontal)
+                }
                 
                 HStack (spacing: 20) {
                     // FB icon button

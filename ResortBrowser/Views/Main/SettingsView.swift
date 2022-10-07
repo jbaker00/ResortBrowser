@@ -14,10 +14,11 @@ struct SettingsView: View {
                 Image("GVTLogo")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 200.0, height:200.0, alignment: .top)
+                    .frame(width: 200.0, height:100.0, alignment: .top)
                 
-                Text("v 1.0.0.0")
-                
+                ScrollView {
+                    Text("v 1.0.0.0")
+                }
                 //Align things to the top
                 Spacer()
             }
