@@ -22,7 +22,7 @@ struct CategoriesView: View {
                                 //CategoryView(category: category)
                                 CategoryView(category: category)
                             } label : {
-                                Text(category.rawValue + "s")
+                                Text(category.rawValue)
                                 
                             }
                         }

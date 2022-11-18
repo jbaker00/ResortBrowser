@@ -18,7 +18,7 @@ struct RecipeView: View {
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                 } placeholder: {
-                    Image(systemName: "photo")
+                    Image(systemName: "building")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 100, height: 100, alignment: .center)

@@ -25,6 +25,6 @@ struct CategoryView: View {
 
 struct CategoryView_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryView(category: Category.allInclusive)
+        CategoryView(category: Category.beach)
     }
 }
