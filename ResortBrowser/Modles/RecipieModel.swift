@@ -120,7 +120,7 @@ airport: "PUJ",
 url: "https://www.theshoreclubtc.com/"
 ),
 Recipe(
-name: "The Ritz",
+name: "The Ritz-Carlton Turks and Caicos",
 image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/99/ef/cf/the-ritz-carlton-turks.jpg?w=1400&h=-1&s=1",
 description: "The Ritz-Carlton sets the standard in elegance for business and leisure travelers worldwide. The Ritz-Carlton  Turks and Caicos is a luxury resort that offers white-sand beaches  turquoise waves  and global flavors on the Island of Turks and Caicos. Weve been perfecting the art of hospitality and have developed an approach to luxury that has never been duplicated. Indulge yourself in the worlds best luxury resort amenities.",
 city: "Grace Bay, Providenciales ",
@@ -152,7 +152,7 @@ url: "https://www.thepalmstc.com/"
 Recipe(
 name: "Wymara Resort and Villas",
 image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/99/1b/30/gansevoort-turks-caicos.jpg?w=2000&h=-1&s=1",
-description: "The fully renovated  Wymara Resort and Villas brings a signature approach to luxury lifestyle that redefines the destination resort experience. Each of the 91 guestrooms and 7 Villas offers sweeping ocean views positioned and designed to pay homage to the unspoiled island. The resort blends Caribbean cool with sophisticated style to create a sense of place for our guests.",
+description: "Located steps away from the flawless white sands and sparkling sapphire waters of Grace Bay - one of the most beautiful beaches in the world - The Palms Turks and Caicos is ranked among the Caribbeans top resorts. Boundless ocean views at our Grace Bay resort from stylishly-appointed suites ensure peace and tranquility while world-class amenities; including a 25000 square foot spa and state-of- the-art infinity pool promise rest and relaxation. A well-equipped gym together with water sports and tennis cater for active guests and a dedicated childrens club provides fun for our younger guests. Whether you opt for a guest suite with infinite views of the ocean or lush garden or prefer to spread out in one of our spacious penthouses you will discover a level of style and comfort that sets the luxury standard for the Turks and Caicos. All guest suites feature hand-tufted king-size bedding and complimentary wifi while a number of suites also boast a washer/dryer and full kitchen",
 city: "Grace Bay, Providenciales ",
 country: "Turks and Caicos",
 category: "Beach",
@@ -229,5 +229,65 @@ category: "Beach",
 airport: "PUJ",
 url: "https://www.thevenetiangracebay.com/"
 ),
+Recipe(
+name: "The Waterfront Beach Resort",
+image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/67/dc/08/exterior.jpg?w=1100&h=-1&s=1",
+description: "The Waterfront Beach Resort A Hilton Hotel is the perfect beach destination you have always dreamed of. Our newly renovated hotel offers something for everyone. From luxurious spa private cabanas meeting rooms and boardrooms to fire pits beach chairs bicycle rentals and more we have got you covered. With easy access to the beach and world-renowned surfing our Orange County resort also offers an impressive array of venues for weddings meetings or social events of almost any size. Dining at the resort is never a problem.",
+city: "Hunnington Beach, California",
+country: "USA",
+category: "Beach",
+airport: "SNA",
+url: "https://www.hilton.com/en/hotels/hubwhhf-the-waterfront-beach-resort/"
+),
+Recipe(
+name: "The Kahala Hotel  Resort",
+image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8e/23/40/the-kahala-hotel-resort.jpg?w=1200&h=-1&s=1",
+description: "The Kahala Hotel Resort is Hawaiis reigning luxury resort set on a secluded beach just ten minutes from the world class shopping and entertainment of Waikiki. This legendary hideaway resort in Honolulus plush Kahala district is a favorite with presidents international royalty and celebrities. From the moment you arrive you will know that you are truly somewhere special.",
+city: "Honolulu, Hawaii",
+country: "USA",
+category: "Beach",
+airport: "HNL",
+url: "https://www.kahalaresort.com/"
+),
+Recipe(
+name: "The Westin Maui Resort and Spa Kaanapali",
+image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/b9/68/53/westin-maui-resort-and.jpg?w=1200&h=-1&s=1",
+description: "Commanding Kaanapali Beach The Westin Maui Resort  Spa Kaanapali has completed a spectacular transformation of its 12-acre tropical paradise including the reveal of Kaanapali’s newest luxury experience Hokupaa at The Westin Maui. The resort is just steps away from snorkel and sunset cruises neighboring Whalers Village and championship golf in Maui Hawaii. Elevate your stay to a room or suite in the newly-redesigned and completely transformed luxury tower. Guests of Hokupaa will be treated with exclusive access to The Lanai at Hokupaa which includes panoramic views daily breakfast a private bar inﬁnity edge cocktail pools and cultural experiences. Surrounded by lush gardens with cascading waterfalls the 770 room beachfront resort abounds with ways to rejuvenate. Guests can indulge in six outdoor pools that include an interactive new family pool dedicated adults-only pool spa rejuvenation unique island themed dining experiences and cultural activities. Complimentary shuttle services are also oﬀered for a short trip to historic Lahaina town for more shopping dining nightlife and sightseeing.",
+city: "Maui, Hawaii",
+country: "USA",
+category: "Beach",
+airport: "OGG",
+url: "https://www.marriott.com/en-us/hotels/hnmwi-the-westin-maui-resort-and-spa-kaanapali/overview/"
+),
+Recipe(
+name: "The Ritz-Carlton Rancho Mirage",
+image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/d6/4e/cf/resort-pool.jpg?w=1200&h=-1&s=1",
+description: "Elegantly enveloped within the Santa Rosa Mountain range The Ritz-Carlton Rancho Mirage is located on a 650-foot bluff overlooking world-famous Palm Springs and the picturesque Coachella Valley. Our Rancho Mirage California luxury hotels accommodations include 244 guest rooms with 16 spacious suites some of which are private spa suites. All are thoughtfully designed to complement our desert mountain location by featuring natural elements of stone wood and fire - which reflect the local landscape hues and regional surroundings. At The Ritz-Carlton Rancho Mirage amenity highlights include State Fare Bar  Kitchen serving breakfast lunch and dinner and featuring an exhibition kitchen private dining room and multiple indoor/outdoor seating areas. Further resort highlights include a luxurious 24000-square-foot spa swimming and relaxation pools and preferred access to some of the finest golf and tennis experiences at premier courses and clubs in the Palm Springs Valley.",
+city: "Palm Springs, California",
+country: "USA",
+category: "Desert",
+airport: "PSP",
+url: "https://www.ritzcarlton.com/en/hotels/california/rancho-mirage"
+),
+Recipe(
+name: "The Ritz-Carlton Half Moon Bay",
+image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/e4/2d/21/the-ritz-carlton-half.jpg?w=1100&h=-1&s=1",
+description: "The Ritz-Carlton Half Moon Bay is a luxury spa resort in Half Moon Bay California. Our resort is close to Elephant Seal Preserve Art Museum and many more attractions. With two distinct guest room experiences from the guest houses to our main building the hotel highlights the beauty of the Northern California Pacific coast with modern and elegant decor. Relax at the spa steam room or have a swim at our indoor heated pool. Host memorable weddings or events at the ocean view spaces or use the meeting rooms for business occasions.",
+city: "Half Moon Bay, California",
+country: "USA",
+category: "Beach",
+airport: "SFO",
+url: "https://www.ritzcarlton.com/en/hotels/california/half-moon-bay"
+),
+Recipe(
+name: "The Ritz-Carlton Laguna Niguel",
+image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/20/96/47/f2/the-bluff-at-the-ritz.jpg?w=1200&h=-1&s=1",
+description: "Experience luxury coastal living at The Ritz-Carlton Laguna Niguel. Our resort in Dana Point California is situated on a seaside bluff overlooking the Pacific Ocean and offers a relaxed Southern California vibe near Laguna Beach Los Angeles and San Diego. Newly renovated guestrooms suites and The Ritz-Carlton Club Level Lounge elevate the entire experience at this oceanfront resort offering refined stylish design custom furnishings enhanced bathrooms and spacious airy layouts.",
+city: "Dana Point, California",
+country: "USA",
+category: "Beach",
+airport: "SNA",
+url: "https://www.ritzcarlton.com/en/hotels/california/laguna-niguel"
+)
    ]
 }
