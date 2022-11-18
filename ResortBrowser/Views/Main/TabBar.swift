@@ -3,7 +3,7 @@
 //  ResortBrowser
 //
 //  Created by James Baker on 9/3/22.
-//
+// 
 
 import SwiftUI
  
