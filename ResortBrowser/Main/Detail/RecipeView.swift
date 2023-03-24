@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct RecipeView: View {
-    var recipe: Recipe
+    var resort: Resorts
     
     var body: some View {
         ScrollView {
             ScrollView {
-                AsyncImage(url: URL(string: recipe.image)) { image in
+                AsyncImage(url: URL(string: resort.image)) { image in
                     image
                         .resizable()
                         .aspectRatio(contentMode: .fill)
@@ -30,16 +30,16 @@ struct RecipeView: View {
                 .background(LinearGradient(gradient: Gradient(colors: [Color(.gray).opacity(0.3), Color(.gray)]), startPoint: .top, endPoint: .bottom))
                 
                 VStack(spacing: 30) {
-                    Text(recipe.name)
+                    Text(resort.name)
                         .font(.largeTitle)
                         .bold()
                         .multilineTextAlignment(.center)
                     
                     //URL Website of Hotel
-                    if !recipe.city.isEmpty {
+                    if !resort.city.isEmpty {
                         VStack(alignment: .leading, spacing: 20) {
                             Link("Website",
-                                  destination: URL(string: recipe.url)!)
+                                  destination: URL(string: resort.url)!)
                                 .font(.headline)
                             
                         }
@@ -47,16 +47,16 @@ struct RecipeView: View {
                     
                     VStack(alignment: .leading, spacing: 30) {
                         //Description of Hotel
-                        if !recipe.description.isEmpty {
-                            Text(recipe.description)
+                        if !resort.description.isEmpty {
+                            Text(resort.description)
                         }
                         
 
                         
                         //Location of Hotel
-                        if !recipe.city.isEmpty {
+                        if !resort.city.isEmpty {
                             VStack(alignment: .leading, spacing: 20) {
-                                Text("City: " + recipe.city + ", Country: " + recipe.country + ", Aiprort: " + recipe.airport)
+                                Text("City: " + resort.city + ", Country: " + resort.country + ", Aiprort: " + resort.airport)
                             }
                         }
                     }
@@ -69,8 +69,8 @@ struct RecipeView: View {
     }
 }
 
-struct RecipeView_Previews: PreviewProvider {
-    static var previews: some View {
-        RecipeView(recipe: Recipe.all[0])
-    }
-}
+//struct RecipeView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        RecipeView(recipe: Recipe.all[0])
+//    }
+//}

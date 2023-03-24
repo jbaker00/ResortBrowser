@@ -8,19 +8,22 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    
     var body: some View {
         NavigationView {
             ScrollView {
-                RecipeList(recipes: Recipe.all)
+                RecipeList()
             }
             .navigationBarTitle("Global Vibes Travel")
         }
     }
-}
-
-
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
+    
+    
+    
+    struct HomeView_Previews: PreviewProvider {
+        static var previews: some View {
+            HomeView()
+        }
     }
 }

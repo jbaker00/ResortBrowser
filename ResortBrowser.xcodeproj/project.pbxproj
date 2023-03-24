@@ -17,7 +17,6 @@
 		1892A9EB28B2D35800745E26 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892A9EA28B2D35800745E26 /* FavoritesView.swift */; };
 		1892A9ED28B2D36B00745E26 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892A9EC28B2D36B00745E26 /* SettingsView.swift */; };
 		1897878328C3E8D400F88BE0 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897878228C3E8D400F88BE0 /* TabBar.swift */; };
-		1897878528C3EE8F00F88BE0 /* RecipieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897878428C3EE8F00F88BE0 /* RecipieModel.swift */; };
 		1897878928C5675F00F88BE0 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897878828C5675F00F88BE0 /* RecipeCard.swift */; };
 		1897878B28C5767600F88BE0 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897878A28C5767600F88BE0 /* RecipeList.swift */; };
 		1897878F28C5811E00F88BE0 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897878E28C5811E00F88BE0 /* RecipeView.swift */; };
@@ -25,6 +24,12 @@
 		1897879528C5AFD000F88BE0 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897879428C5AFCF00F88BE0 /* CategoryView.swift */; };
 		189787A028C5D4A100F88BE0 /* GVTLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1897879F28C5D4A100F88BE0 /* GVTLogo.jpg */; };
 		189787A228C5D52B00F88BE0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189787A128C5D52B00F88BE0 /* Launch Screen.storyboard */; };
+		4C2BF79529CD306A00969DD3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C2BF79429CD306A00969DD3 /* GoogleService-Info.plist */; };
+		4C4A339429CD09E2008C7D0F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4C4A339329CD09E2008C7D0F /* FirebaseDatabase */; };
+		4C4A339629CD09E2008C7D0F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4C4A339529CD09E2008C7D0F /* FirebaseFirestore */; };
+		4C4A339829CD09E2008C7D0F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4C4A339729CD09E2008C7D0F /* FirebaseFirestoreSwift */; };
+		4C51741229CD0D41002BF3E7 /* Resorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51741129CD0D41002BF3E7 /* Resorts.swift */; };
+		4C51741529CD0FB4002BF3E7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51741429CD0FB4002BF3E7 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +44,6 @@
 		1892A9EA28B2D35800745E26 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		1892A9EC28B2D36B00745E26 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1897878228C3E8D400F88BE0 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
-		1897878428C3EE8F00F88BE0 /* RecipieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipieModel.swift; sourceTree = "<group>"; };
 		1897878828C5675F00F88BE0 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
 		1897878A28C5767600F88BE0 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
 		1897878E28C5811E00F88BE0 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
@@ -48,6 +52,9 @@
 		1897879A28C5D16D00F88BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1897879F28C5D4A100F88BE0 /* GVTLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GVTLogo.jpg; sourceTree = "<group>"; };
 		189787A128C5D52B00F88BE0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4C2BF79429CD306A00969DD3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4C51741129CD0D41002BF3E7 /* Resorts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resorts.swift; sourceTree = "<group>"; };
+		4C51741429CD0FB4002BF3E7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C4A339429CD09E2008C7D0F /* FirebaseDatabase in Frameworks */,
+				4C4A339629CD09E2008C7D0F /* FirebaseFirestore in Frameworks */,
+				4C4A339829CD09E2008C7D0F /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +76,7 @@
 			children = (
 				1892A9CE28B2D0C200745E26 /* ResortBrowser */,
 				1892A9D328B2D0C400745E26 /* Assets.xcassets */,
+				4C2BF79429CD306A00969DD3 /* GoogleService-Info.plist */,
 				189787A128C5D52B00F88BE0 /* Launch Screen.storyboard */,
 				1897879F28C5D4A100F88BE0 /* GVTLogo.jpg */,
 				1892A9D528B2D0C400745E26 /* Preview Content */,
@@ -86,8 +97,7 @@
 			children = (
 				1897879A28C5D16D00F88BE0 /* Info.plist */,
 				1892A9CF28B2D0C200745E26 /* ResortBrowserApp.swift */,
-				1892A9E028B2D1A700745E26 /* Views */,
-				1892A9DE28B2D17300745E26 /* VeiwModels */,
+				1892A9E028B2D1A700745E26 /* Main */,
 				1892A9DF28B2D18800745E26 /* Modles */,
 			);
 			path = ResortBrowser;
@@ -101,32 +111,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1892A9DE28B2D17300745E26 /* VeiwModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = VeiwModels;
-			sourceTree = "<group>";
-		};
 		1892A9DF28B2D18800745E26 /* Modles */ = {
 			isa = PBXGroup;
 			children = (
-				1897878428C3EE8F00F88BE0 /* RecipieModel.swift */,
+				4C51741129CD0D41002BF3E7 /* Resorts.swift */,
 			);
 			path = Modles;
 			sourceTree = "<group>";
 		};
-		1892A9E028B2D1A700745E26 /* Views */ = {
+		1892A9E028B2D1A700745E26 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				1892A9E128B2D1C100745E26 /* Main */,
+				1892A9E128B2D1C100745E26 /* Views */,
 				1892A9E228B2D1DD00745E26 /* Detail */,
 				1892A9E328B2D20400745E26 /* Components */,
+				4C51741329CD0F67002BF3E7 /* ViewModels */,
 			);
-			path = Views;
+			path = Main;
 			sourceTree = "<group>";
 		};
-		1892A9E128B2D1C100745E26 /* Main */ = {
+		1892A9E128B2D1C100745E26 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				1892A9D128B2D0C200745E26 /* ContentView.swift */,
@@ -137,7 +141,7 @@
 				1892A9EA28B2D35800745E26 /* FavoritesView.swift */,
 				1892A9EC28B2D36B00745E26 /* SettingsView.swift */,
 			);
-			path = Main;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		1892A9E228B2D1DD00745E26 /* Detail */ = {
@@ -159,6 +163,14 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		4C51741329CD0F67002BF3E7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4C51741429CD0FB4002BF3E7 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,6 +187,11 @@
 			dependencies = (
 			);
 			name = ResortBrowser;
+			packageProductDependencies = (
+				4C4A339329CD09E2008C7D0F /* FirebaseDatabase */,
+				4C4A339529CD09E2008C7D0F /* FirebaseFirestore */,
+				4C4A339729CD09E2008C7D0F /* FirebaseFirestoreSwift */,
+			);
 			productName = ResortBrowser;
 			productReference = 1892A9CC28B2D0C200745E26 /* ResortBrowser.app */;
 			productType = "com.apple.product-type.application";
@@ -203,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 1892A9C328B2D0C200745E26;
+			packageReferences = (
+				4C4A339229CD09E2008C7D0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 1892A9CD28B2D0C200745E26 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -219,6 +239,7 @@
 			files = (
 				1892A9D728B2D0C400745E26 /* Preview Assets.xcassets in Resources */,
 				189787A028C5D4A100F88BE0 /* GVTLogo.jpg in Resources */,
+				4C2BF79529CD306A00969DD3 /* GoogleService-Info.plist in Resources */,
 				189787A228C5D52B00F88BE0 /* Launch Screen.storyboard in Resources */,
 				1892A9D428B2D0C400745E26 /* Assets.xcassets in Resources */,
 			);
@@ -237,10 +258,11 @@
 				1892A9E728B2D32B00745E26 /* CategoriesView.swift in Sources */,
 				1892A9E528B2D31000745E26 /* HomeView.swift in Sources */,
 				1897878328C3E8D400F88BE0 /* TabBar.swift in Sources */,
-				1897878528C3EE8F00F88BE0 /* RecipieModel.swift in Sources */,
+				4C51741529CD0FB4002BF3E7 /* ViewModel.swift in Sources */,
 				1897878F28C5811E00F88BE0 /* RecipeView.swift in Sources */,
 				1897878B28C5767600F88BE0 /* RecipeList.swift in Sources */,
 				1892A9EB28B2D35800745E26 /* FavoritesView.swift in Sources */,
+				4C51741229CD0D41002BF3E7 /* Resorts.swift in Sources */,
 				1892A9D228B2D0C200745E26 /* ContentView.swift in Sources */,
 				1892A9D028B2D0C200745E26 /* ResortBrowserApp.swift in Sources */,
 				1892A9E928B2D34100745E26 /* AboutUsView.swift in Sources */,
@@ -392,7 +414,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.globalvibes.ResortBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -426,7 +448,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.globalvibes.ResortBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -457,6 +479,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C4A339229CD09E2008C7D0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C4A339329CD09E2008C7D0F /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C4A339229CD09E2008C7D0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		4C4A339529CD09E2008C7D0F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C4A339229CD09E2008C7D0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4C4A339729CD09E2008C7D0F /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C4A339229CD09E2008C7D0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1892A9C428B2D0C200745E26 /* Project object */;
 }

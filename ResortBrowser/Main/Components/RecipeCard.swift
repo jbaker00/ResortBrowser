@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct RecipeCard: View {
-    var recipe: Recipe
+    var resort: Resorts
     var body: some View {
         VStack {
-            AsyncImage(url: URL(string: recipe.image)) { image in
+            AsyncImage(url: URL(string: resort.image)) { image in
                 image
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .overlay(alignment: .bottom) {
-                        Text(recipe.name)
+                        Text(resort.name)
                             .font(.headline)
                             .foregroundColor(.white)
                             .shadow(color: .black, radius: 3, x:0 , y:0)
@@ -33,7 +33,7 @@ struct RecipeCard: View {
                     .foregroundColor(.white.opacity(0.7))
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .overlay(alignment: .bottom) {
-                        Text(recipe.name)
+                        Text(resort.name)
                             .font(.headline)
                             .foregroundColor(.white)
                             .shadow(color: .black, radius: 3, x:0 , y:0)
@@ -49,9 +49,9 @@ struct RecipeCard: View {
     }
 }
 
-struct RecipeCard_Previews: PreviewProvider {
-    static var previews: some View {
-        RecipeCard(recipe: Recipe.all[0])
-        }
-    }
+//struct RecipeCard_Previews: PreviewProvider {
+//    static var previews: some View {
+//        RecipeCard(resort: Resorts)
+//        }
+//    }
 }

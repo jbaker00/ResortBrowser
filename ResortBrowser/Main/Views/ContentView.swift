@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+
+
     var body: some View {
-        //NavigationView {
-            TabBar()
-        //}
+        TabBar()
     }
+    
+
 }
 
 struct ContentView_Previews: PreviewProvider {
