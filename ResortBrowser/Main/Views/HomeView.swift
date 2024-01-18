@@ -13,7 +13,7 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                RecipeList()
+                ResortList()
             }
             .navigationBarTitle("Global Vibes Travel")
         }

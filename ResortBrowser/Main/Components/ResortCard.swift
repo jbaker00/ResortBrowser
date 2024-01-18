@@ -1,5 +1,5 @@
 //
-//  RecipeCard.swift
+//  ResortCard.swift
 //  ResortBrowser
 //
 //  Created by James Baker on 9/4/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RecipeCard: View {
+struct ResortCard: View {
     var resort: Resorts
     var body: some View {
         VStack {
@@ -49,9 +49,9 @@ struct RecipeCard: View {
     }
 }
 
-//struct RecipeCard_Previews: PreviewProvider {
+//struct ResortCard_Previews: PreviewProvider {
 //    static var previews: some View {
-//        RecipeCard(resort: Resorts)
+//        ResortCard(resort: Resorts)
 //        }
 //    }
 }

@@ -1,5 +1,5 @@
 //
-//  RecipeView.swift
+//  ResortView.swift
 //  ResortBrowser
 //
 //  Created by James Baker on 9/4/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RecipeView: View {
+struct ResortView: View {
     var resort: Resorts
     
     var body: some View {
@@ -28,7 +28,7 @@ struct RecipeView: View {
                 //.frame(height: 300)
                 .frame(maxWidth: UIScreen.main.bounds.width)
                 .background(LinearGradient(gradient: Gradient(colors: [Color(.gray).opacity(0.3), Color(.gray)]), startPoint: .top, endPoint: .bottom))
-                
+    
                 VStack(spacing: 30) {
                     Text(resort.name)
                         .font(.largeTitle)
@@ -39,25 +39,16 @@ struct RecipeView: View {
                     if !resort.city.isEmpty {
                         VStack(alignment: .leading, spacing: 20) {
                             Link("Website",
-                                  destination: URL(string: resort.url)!)
-                                .font(.headline)
+                                 destination: URL(string: resort.url)!)
+                            .font(.headline)
                             
                         }
                     }
                     
+                    //Description of Hotel
                     VStack(alignment: .leading, spacing: 30) {
-                        //Description of Hotel
                         if !resort.description.isEmpty {
                             Text(resort.description)
-                        }
-                        
-
-                        
-                        //Location of Hotel
-                        if !resort.city.isEmpty {
-                            VStack(alignment: .leading, spacing: 20) {
-                                Text("City: " + resort.city + ", Country: " + resort.country + ", Aiprort: " + resort.airport)
-                            }
                         }
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -69,8 +60,8 @@ struct RecipeView: View {
     }
 }
 
-//struct RecipeView_Previews: PreviewProvider {
+//struct ResortView_Previews: PreviewProvider {
 //    static var previews: some View {
-//        RecipeView(recipe: Recipe.all[0])
+//        ResortView(recipe: Recipe.all[0]) 
 //    }
 //}
