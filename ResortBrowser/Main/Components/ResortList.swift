@@ -1,5 +1,5 @@
 //
-//  RecipeList.swift
+//  ResortList.swift
 //  ResortBrowser
 //
 //  Created by James Baker on 9/4/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RecipeList: View {
+struct ResortList: View {
     
     //var model: [ViewModel]
     @ObservedObject var model = ViewModel()
@@ -25,8 +25,8 @@ struct RecipeList: View {
             
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 160), spacing: 15)], spacing: 15) {
                 ForEach(model.list) { item in
-                    NavigationLink(destination: RecipeView(resort: item)) {
-                    RecipeCard(resort: item)
+                    NavigationLink(destination: ResortView(resort: item)) {
+                    ResortCard(resort: item)
                     }
                 }
             }
@@ -41,10 +41,10 @@ struct RecipeList: View {
     }
 }
 
-//struct RecipeList_Previews: PreviewProvider {
+//struct ReortList_Previews: PreviewProvider {
 //    static var previews: some View {
 //        ScrollView {
-//        RecipeList(recipes: Recipe.all)
+//        ResortList(recipes: Recipe.all)
 //        }
 //    }
 //}
