@@ -23,11 +23,11 @@
 		1897879128C59D1800F88BE0 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897879028C59D1800F88BE0 /* SwiftUIView.swift */; };
 		1897879528C5AFD000F88BE0 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897879428C5AFCF00F88BE0 /* CategoryView.swift */; };
 		189787A028C5D4A100F88BE0 /* GVTLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1897879F28C5D4A100F88BE0 /* GVTLogo.jpg */; };
-		189787A228C5D52B00F88BE0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189787A128C5D52B00F88BE0 /* Launch Screen.storyboard */; };
 		4C2BF79529CD306A00969DD3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C2BF79429CD306A00969DD3 /* GoogleService-Info.plist */; };
 		4C4A339429CD09E2008C7D0F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4C4A339329CD09E2008C7D0F /* FirebaseDatabase */; };
 		4C4A339629CD09E2008C7D0F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4C4A339529CD09E2008C7D0F /* FirebaseFirestore */; };
 		4C4A339829CD09E2008C7D0F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4C4A339729CD09E2008C7D0F /* FirebaseFirestoreSwift */; };
+		AA22CC3300445566AA22CC33 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AA22CC3400445566AA22CC44 /* FirebaseAnalytics */; };
 		4C51741229CD0D41002BF3E7 /* Resorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51741129CD0D41002BF3E7 /* Resorts.swift */; };
 		4C51741529CD0FB4002BF3E7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51741429CD0FB4002BF3E7 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -51,7 +51,6 @@
 		1897879428C5AFCF00F88BE0 /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		1897879A28C5D16D00F88BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1897879F28C5D4A100F88BE0 /* GVTLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GVTLogo.jpg; sourceTree = "<group>"; };
-		189787A128C5D52B00F88BE0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		4C2BF79429CD306A00969DD3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4C51741129CD0D41002BF3E7 /* Resorts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resorts.swift; sourceTree = "<group>"; };
 		4C51741429CD0FB4002BF3E7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 				4C4A339429CD09E2008C7D0F /* FirebaseDatabase in Frameworks */,
 				4C4A339629CD09E2008C7D0F /* FirebaseFirestore in Frameworks */,
 				4C4A339829CD09E2008C7D0F /* FirebaseFirestoreSwift in Frameworks */,
+				AA22CC3300445566AA22CC33 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,6 @@
 				1892A9CE28B2D0C200745E26 /* ResortBrowser */,
 				1892A9D328B2D0C400745E26 /* Assets.xcassets */,
 				4C2BF79429CD306A00969DD3 /* GoogleService-Info.plist */,
-				189787A128C5D52B00F88BE0 /* Launch Screen.storyboard */,
 				1897879F28C5D4A100F88BE0 /* GVTLogo.jpg */,
 				1892A9D528B2D0C400745E26 /* Preview Content */,
 				1892A9CD28B2D0C200745E26 /* Products */,
@@ -181,6 +180,7 @@
 				1892A9C828B2D0C200745E26 /* Sources */,
 				1892A9C928B2D0C200745E26 /* Frameworks */,
 				1892A9CA28B2D0C200745E26 /* Resources */,
+				AA11BB2200334455AABB1122 /* Fix Firebase Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +191,7 @@
 				4C4A339329CD09E2008C7D0F /* FirebaseDatabase */,
 				4C4A339529CD09E2008C7D0F /* FirebaseFirestore */,
 				4C4A339729CD09E2008C7D0F /* FirebaseFirestoreSwift */,
+				AA22CC3400445566AA22CC44 /* FirebaseAnalytics */,
 			);
 			productName = ResortBrowser;
 			productReference = 1892A9CC28B2D0C200745E26 /* ResortBrowser.app */;
@@ -240,12 +241,32 @@
 				1892A9D728B2D0C400745E26 /* Preview Assets.xcassets in Resources */,
 				189787A028C5D4A100F88BE0 /* GVTLogo.jpg in Resources */,
 				4C2BF79529CD306A00969DD3 /* GoogleService-Info.plist in Resources */,
-				189787A228C5D52B00F88BE0 /* Launch Screen.storyboard in Resources */,
 				1892A9D428B2D0C400745E26 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA11BB2200334455AABB1122 /* Fix Firebase Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Fix Firebase Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "find \"${CODESIGNING_FOLDER_PATH}/Frameworks\" -name '*.framework' -type d 2>/dev/null | while read -r framework; do\n    info_plist=\"${framework}/Info.plist\"\n    if [ ! -f \"${info_plist}\" ]; then\n        /usr/libexec/PlistBuddy -c 'Add :CFBundleIdentifier string placeholder' \"${info_plist}\"\n        /usr/libexec/PlistBuddy -c 'Add :CFBundleVersion string 1' \"${info_plist}\"\n        /usr/libexec/PlistBuddy -c 'Add :CFBundleShortVersionString string 1.0' \"${info_plist}\"\n        /usr/libexec/PlistBuddy -c 'Add :CFBundlePackageType string FMWK' \"${info_plist}\"\n    fi\n    bundle_id=$(/usr/libexec/PlistBuddy -c 'Print :CFBundleIdentifier' \"${info_plist}\" 2>/dev/null)\n    fixed_id=\"${bundle_id//+/}\"\n    if [ \"${bundle_id}\" != \"${fixed_id}\" ]; then\n        /usr/libexec/PlistBuddy -c \"Set :CFBundleIdentifier ${fixed_id}\" \"${info_plist}\"\n    fi\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1892A9C828B2D0C200745E26 /* Sources */ = {
@@ -410,7 +431,6 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -444,7 +464,6 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -510,6 +529,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4C4A339229CD09E2008C7D0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
+		};
+		AA22CC3400445566AA22CC44 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C4A339229CD09E2008C7D0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

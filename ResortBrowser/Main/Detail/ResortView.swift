@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FirebaseAnalytics
 
 struct ResortView: View {
     var resort: Resorts
@@ -56,6 +57,12 @@ struct ResortView: View {
                 .padding(.horizontal)
             }
             .ignoresSafeArea(.container, edges: .top)
+        }
+        .onAppear {
+            Analytics.logEvent(AnalyticsEventScreenView, parameters: [
+                AnalyticsParameterScreenName: resort.name,
+                AnalyticsParameterScreenClass: "ResortView"
+            ])
         }
     }
 }

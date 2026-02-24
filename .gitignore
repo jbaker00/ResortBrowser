@@ -1,0 +1,13 @@
+# Firebase credentials — do NOT commit
+GoogleService-Info.plist
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# macOS
+.DS_Store

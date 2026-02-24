@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FirebaseAnalytics
 
 struct HomeView: View {
     
@@ -16,6 +17,12 @@ struct HomeView: View {
                 ResortList()
             }
             .navigationBarTitle("Global Vibes Travel")
+        }
+        .onAppear {
+            Analytics.logEvent(AnalyticsEventScreenView, parameters: [
+                AnalyticsParameterScreenName: "Home",
+                AnalyticsParameterScreenClass: "HomeView"
+            ])
         }
     }
     
