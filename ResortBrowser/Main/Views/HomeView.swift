@@ -16,7 +16,7 @@ struct HomeView: View {
             ScrollView {
                 ResortList()
             }
-            .navigationBarTitle("Global Vibes Travel")
+            .navigationBarTitle("Resort Browser")
         }
         .onAppear {
             Analytics.logEvent(AnalyticsEventScreenView, parameters: [

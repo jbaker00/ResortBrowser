@@ -12,11 +12,6 @@ struct SettingsView: View {
     var body: some View {
         NavigationView {
             VStack (spacing:20) {
-                Image("GVTLogo")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 200.0, height:100.0, alignment: .top)
-                
                 ScrollView {
                     Text("v 1.0.0.0")
                 }
