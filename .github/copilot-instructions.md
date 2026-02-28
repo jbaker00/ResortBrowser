@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**ResortBrowser** is an iOS SwiftUI app for Global Vibes Travel, a travel agency. It displays international resort/hotel listings fetched from Firebase Firestore and lets users browse by category, view details, and (in future) save favorites.
+**ResortBrowser** is an iOS SwiftUI app for browsing international resort and hotel listings. It displays resort/hotel listings fetched from Firebase Firestore and lets users browse by category, view details, and (in future) save favorites.
 
 ## Build
 
