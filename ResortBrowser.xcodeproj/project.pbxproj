@@ -22,7 +22,6 @@
 		1897878F28C5811E00F88BE0 /* ResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897878E28C5811E00F88BE0 /* ResortView.swift */; };
 		1897879128C59D1800F88BE0 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897879028C59D1800F88BE0 /* SwiftUIView.swift */; };
 		1897879528C5AFD000F88BE0 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897879428C5AFCF00F88BE0 /* CategoryView.swift */; };
-		189787A028C5D4A100F88BE0 /* GVTLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1897879F28C5D4A100F88BE0 /* GVTLogo.jpg */; };
 		4C2BF79529CD306A00969DD3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C2BF79429CD306A00969DD3 /* GoogleService-Info.plist */; };
 		4C4A339429CD09E2008C7D0F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4C4A339329CD09E2008C7D0F /* FirebaseDatabase */; };
 		4C4A339629CD09E2008C7D0F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4C4A339529CD09E2008C7D0F /* FirebaseFirestore */; };
@@ -52,7 +51,6 @@
 		1897879028C59D1800F88BE0 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		1897879428C5AFCF00F88BE0 /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		1897879A28C5D16D00F88BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		1897879F28C5D4A100F88BE0 /* GVTLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GVTLogo.jpg; sourceTree = "<group>"; };
 		4C2BF79429CD306A00969DD3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4C51741129CD0D41002BF3E7 /* Resorts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resorts.swift; sourceTree = "<group>"; };
 		4C51741429CD0FB4002BF3E7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				1892A9CE28B2D0C200745E26 /* ResortBrowser */,
 				1892A9D328B2D0C400745E26 /* Assets.xcassets */,
 				4C2BF79429CD306A00969DD3 /* GoogleService-Info.plist */,
-				1897879F28C5D4A100F88BE0 /* GVTLogo.jpg */,
 				6E0AD7AD2F4D4C9C0043679A /* ci_scripts */,
 				6E0AD7AE2F4D4C9C0043679A /* GoogleService-Info.plist.template */,
 				1892A9D528B2D0C400745E26 /* Preview Content */,
@@ -253,7 +250,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1892A9D728B2D0C400745E26 /* Preview Assets.xcassets in Resources */,
-				189787A028C5D4A100F88BE0 /* GVTLogo.jpg in Resources */,
 				4C2BF79529CD306A00969DD3 /* GoogleService-Info.plist in Resources */,
 				1892A9D428B2D0C400745E26 /* Assets.xcassets in Resources */,
 				6E0AD7AF2F4D4C9C0043679A /* GoogleService-Info.plist.template in Resources */,
