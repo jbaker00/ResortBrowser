@@ -12,6 +12,12 @@ struct SettingsView: View {
     var body: some View {
         NavigationView {
             VStack (spacing:20) {
+                Image(systemName: "beach.umbrella")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 100, height: 100)
+                    .foregroundColor(.teal)
+
                 ScrollView {
                     Text("v 1.0.0.0")
                 }

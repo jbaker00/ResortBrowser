@@ -12,6 +12,12 @@ struct FavoritesView: View {
     var body: some View {
         NavigationView {
             VStack {
+                Image(systemName: "beach.umbrella")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 100, height: 100)
+                    .foregroundColor(.teal)
+
                 ScrollView {
                     Text("You haven't saved any hotels to your favorites yet")
                         .padding()
