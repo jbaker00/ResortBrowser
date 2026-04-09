@@ -35,7 +35,8 @@ class ViewModel: ObservableObject {
                                            country: d["country"] as! String,
                                            category: d["category"] as! Category.RawValue,
                                            airport: d["airport"] as! String,
-                                           url: d["url"] as! String)
+                                           url: d["url"] as! String,
+                                           bookingUrl: (d["bookingUrl"] as? String).flatMap { $0.isEmpty ? nil : $0 } ?? "https://www.expedia.com")
                         }
                     }
                 }

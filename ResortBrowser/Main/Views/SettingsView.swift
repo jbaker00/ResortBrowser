@@ -6,7 +6,9 @@
 //
 
 import SwiftUI
+#if os(iOS)
 import FirebaseAnalytics
+#endif
 
 struct SettingsView: View {
     var body: some View {
@@ -27,10 +29,13 @@ struct SettingsView: View {
             .navigationBarTitle("Settings")
         }
         .onAppear {
+#if os(iOS)
+
             Analytics.logEvent(AnalyticsEventScreenView, parameters: [
                 AnalyticsParameterScreenName: "Settings",
                 AnalyticsParameterScreenClass: "SettingsView"
             ])
+#endif
         }
     }
 }

@@ -6,7 +6,9 @@
 //
 
 import SwiftUI
+#if os(iOS)
 import FirebaseAnalytics
+#endif
 
 struct FavoritesView: View {
     var body: some View {
@@ -30,10 +32,13 @@ struct FavoritesView: View {
             .navigationBarTitle("Favorites")
         }
         .onAppear {
+#if os(iOS)
+
             Analytics.logEvent(AnalyticsEventScreenView, parameters: [
                 AnalyticsParameterScreenName: "Favorites",
                 AnalyticsParameterScreenClass: "FavoritesView"
             ])
+#endif
         }
     }
 }

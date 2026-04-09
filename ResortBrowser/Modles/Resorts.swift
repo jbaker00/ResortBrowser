@@ -26,5 +26,6 @@ struct Resorts: Identifiable {
     var category: Category.RawValue
     var airport: String
     var url: String
+    var bookingUrl: String
 }
 
