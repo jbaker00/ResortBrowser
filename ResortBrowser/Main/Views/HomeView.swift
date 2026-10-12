@@ -6,7 +6,9 @@
 //
 
 import SwiftUI
+#if os(iOS)
 import FirebaseAnalytics
+#endif
 
 struct HomeView: View {
     
@@ -16,13 +18,16 @@ struct HomeView: View {
             ScrollView {
                 ResortList()
             }
-            .navigationBarTitle("Resorts")
+            .navigationBarTitle("Resort Browser")
         }
         .onAppear {
+#if os(iOS)
+
             Analytics.logEvent(AnalyticsEventScreenView, parameters: [
                 AnalyticsParameterScreenName: "Home",
                 AnalyticsParameterScreenClass: "HomeView"
             ])
+#endif
         }
     }
     
